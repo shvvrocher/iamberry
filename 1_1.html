@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나는 완벽한 딸기야!</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        img.leftabsolute {
+            position: absolute;
+            left: 1200px;
+            top: 110px
+        }
+        img.rightabsolute {
+            position: absolute;
+            right: 1200px;
+            top: 110px
+        }
+    </style>
+</head>
+<body style="background-image: url(pinkberry.png)">
+    <div>
+        <h1><b>나는 사실 딸기</b></h1>
+        <img src="redberry.png" class="leftabsolute">
+        <img src="redberry.png" class="rightabsolute">
+    <ul>
+        <a href="1_1_1.html">얼른 사람에게 먹혀 인체 탐험을 하고싶어!</a>
+        <br/>
+        <a href="1_1_2.html">씹히는 건 무서워! 먹히고 싶지 않아!</a>
+    </ul> 
+    </div>
+    <br/>
+    <br/>
+    <button class="buttons"
+        onclick="goBack()">아닌가?</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>땅 속으로 들어가 나만의 자손을 만들어 낼거야!</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        img.leftabsolute {
+            position: absolute;
+            left: 1200px;
+            top: 110px
+        }
+        img.rightabsolute {
+            position: absolute;
+            right: 1200px;
+            top: 110px
+        }
+    </style>
+</head>
+<body style="background-image: url(pinkberry.png)">
+    <div>
+        <h1><b>나는 사실 딸기</b></h1>
+        <img src="redberry.png" class="leftabsolute">
+        <img src="redberry.png" class="rightabsolute">
+    <ul>
+        <a href="R4.html">나는 아주 거대한 나의 나무를 만들거야!</a>
+        <br/>
+        <a href="R5.html">소박하지만 소중한 나의 나무를 만들거야!</a>
+    </ul> 
+    </div>
+    <br/>
+    <br/>
+    <button class="buttons"
+        onclick="goBack()">아닌가?</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

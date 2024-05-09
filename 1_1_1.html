@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>얼른 사람에게 먹혀 인체 탐험을 하고싶어!</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        img.leftabsolute {
+            position: absolute;
+            left: 1200px;
+            top: 110px
+        }
+        img.rightabsolute {
+            position: absolute;
+            right: 1200px;
+            top: 110px
+        }
+    </style>
+</head>
+<body style="background-image: url(pinkberry.png)">
+    <div>
+        <h1><b>나는 사실 딸기</b></h1>
+        <img src="redberry.png" class="leftabsolute">
+        <img src="redberry.png" class="rightabsolute">
+    <ul>
+        <a href="R1.html">인체 속에서 나만의 탐험기를 펼칠거야!</a>
+        <br/>
+        <a href="R2.html">우유와 함께 부드럽게 탐험 할거야!</a>
+    </ul> 
+    </div>
+    <br/>
+    <br/>
+    <button class="buttons"
+        onclick="goBack()">아닌가?</button>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

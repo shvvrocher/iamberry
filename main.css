@@ -1,0 +1,51 @@
+body {
+    font-family: 'UhBeeJJIBBABBA';
+    text-align: center;
+    font-size: 30px;
+    line-height: 250px;
+}
+@font-face {
+    font-family: 'UhBeeJJIBBABBA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeJJIBBABBA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+.buttons {
+    font-family: 'UhBeeJJIBBABBA';
+    background: linear-gradient(-45deg, #fff1ef64 0%, #ffffff00 100%);
+    color: #ffffff;
+    border: none;
+    color: rgba(0, 0, 0, 0.455);
+    padding: 35px 25px;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    border-radius: 120px;
+    -shadow: 7px 7px 40px rgba(0, 0, 0, 0.3);
+ }
+.buttons:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    transition: 0.25s;
+    cursor: pointer;
+}
+a {
+    text-decoration-line: none;
+    color: #000000;
+}
+a:hover {
+    color: #FF624F;
+    cursor: pointer;
+}
+.box {
+    height: 1000px;
+    border: none;
+    line-height: 200px;
+    text-align: center;
+}
+.images:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+    cursor: pointer;
+}
